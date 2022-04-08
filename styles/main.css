@@ -88,7 +88,6 @@ nav ul{
 
 .descuento{
     width: 100%;
-    height: 80%;
 }
 
 .containerImg{
@@ -100,7 +99,6 @@ nav ul{
                         "loMasVendido loMasVendido loMasVendido loMasVendido"
                         "boxImg9 boxImg10 boxImg11 boxImg12";  
    justify-content: center;
-   width: 100%;
 }
 
 .loNuevo{
@@ -163,20 +161,21 @@ nav ul{
 }
 
 .imgNuevo{
-    margin-left: 6px;
-    height: 100%;
-    width: 95%;
+    display: block;
+    margin-left: 10%;
+    height: 300px;
+    width: 247px;
 }
 
 .imgCategorias{
-    height: 100%;
-    width: 100%;
+    margin-left: 10%;
+    width: 80%;
 }
 
 .imgloMasVendido{
-    margin-left: 6px;
-    height: 100%;
-    width: 95%;
+    margin-left: 10%;
+    height: 300px;
+    width: 247px;
 }
 
 
@@ -189,7 +188,7 @@ nav ul{
 
 
 
-footer{
+.footerCss{
     background-color: white;
     color: black;
     top: 0;
@@ -198,6 +197,10 @@ footer{
     font-weight: bold;
     margin-top: 5%;
     padding: 3%;
+}
+
+.footerCss p{
+    color: black;
 }
 
 /*propiedades catalogo */
@@ -379,68 +382,64 @@ li{
 
 /* propiedades contacto */
 
-.mainContacto{
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-
+.tituloContacto{
+    font-size: 30px;
+    font-weight: bold;
 }
 
+.tituloNav{
 
-
-.contacto{
-    color: white;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
-
+    font-weight: bold;
 }
-
-.redes{
-    text-align: center;
-    margin: 10px;
-    font-size: 1.8rem;
-}
-
-form{
-    font-size: 20px;
-}
-
-
 
 label{
-    display: flex;
-    flex-direction: column;
-    margin: 18px;
-    color: whitesmoke;
-}
-.enviar, .reset{
-    border-radius: 5px;
-    color: black;
-    margin: 5px;
-}
-
-h3{
+    margin: 10px;
     color: white;
-    font-size: 22px;
+    font-weight: bold;
 }
 
-.contenedorContactanos{
-    display: flex;
-    flex-direction: column;
+p{
     color: white;
-    
+    margin: 10px;
 }
 
-.imgContacto{
-    width: 32px;
-    height: 32px;
-}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+/* footer */
 
+.footer-style {
+    padding-top: 50px;
+    background-color: black;
+}
+.footer-contacto {
+  color: white;
+}
+.footer-contacto h2 {
+  margin-bottom: 30px;
+    font-weight: 800;
+}
+.footer-contacto .footer-above {
+  padding-top: 50px;
+  background-color: #2C3E50;
+}
+.footer-contacto .footer-col {
+  margin-bottom: 50px;
+}
+.footer-contacto .footer-below {
+  padding: 25px 0;
+  background-color: black;
+}
 /* Propiedades Medios de Pago */
 
 .subTituloPagos{
