@@ -1,183 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js/main.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/7b083a6b27.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="icon" href="../img/l.png">
     <title>London|Home</title>
 
 </head>
+
 <body>
-   <p class="envios">ENVIOS A TODO EL PAIS</p>
-   <header class="menuIndex">
-        <nav class="nav">
-            <h1 class="tituloIndex animate__animated animate__backInLeft">LONDON INDUMENTARIA</h1>
-            <div class="navContainer">
-                <label for="menu" class="navLabel">
-                    <img src="assets/menu.svg" alt="imagenMenu" class="imgMenuMobile">
-                </label>
-                <input type="checkbox" id="menu" class="navInput">
-            
-
-                <ul class="navMenu">
-            
-                    <li>
-                        <img src="img/hogar (1).png" alt="Home" class="imgMenu">
-                        <a href="../index.html" class="navItem">
-                            INICIO
-                        </a>
-                    </li>
-                    <li>
-                        <img src="img/camiseta.png" alt="catalogo" class="imgMenu">
-                        <a href="/pages/catalogo.html" class="navItem">
-                            CATALOGO
-                        </a>
-                    </li>
-                    <li>
-                        <img src="img/contacto.png" alt="contacto" class="imgMenu">
-                        <a href="/pages/contacto.html" class="navItem">
-                            CONTACTO
-                        </a>
-                    </li>
-                    <li>
-                        <img src="img/metodosdepago.png"        alt="mediosdepago" class="imgMenu">    
-                        <a href="/pages/mediosdepago.html" class="navItem">
-                            MEDIOS DE PAGO
-                        </a>
-                    </li>
-                    <li>
-                        <img src="img/sobrenosotros.png"        alt="sobrenosotros" class="imgMenu">
-                        <a href="/pages/sobrenosotros.html" class="navItem">
-                            SOBRE NOSOTROS
-                        </a>
-                    </li>
-
-
-                </ul>
+    <p class="text-center text-light m-0 fw-bold">ENVIOS A TODO EL PAIS</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fw-bold">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-3" href="index.html">London Indumentaria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-black" aria-current="page" href="index.html">INICIO</a>
+                    <a class="nav-link text-black" href="pages/catalogo.html">CATALOGO</a>
+                    <a class="nav-link text-black" href="pages/contacto.html">CONTACTO</a>
+                    <a class="nav-link text-black" href="pages/mediosdepago.html">MEDIOS DE PAGO</a>
+                    <a class="nav-link text-black" href="pages/sobrenosotros.html">SOBRE NOSOTROS</a>
+                </div>
             </div>
-        </nav>
-
-   </header> 
-
-   <div>
-        <a href="#">
-            <figure>
-                <img src="img/descuento.png" alt="descuento" class="descuento">
-            </figure>
-        </a>
-    </div>
-
-   <div class="containerImg">
-        <h1 class="loNuevo">LO NUEVO</h1>
-        <!--Lo Nuevo-->
-       <div class="boxImg1">
-           <a href="#">
-               <figure>
-                   <img src="img/new/buzoinder.jpeg" alt="buzoinder" class="imgNuevo">
-               </figure>
-           </a>
-       </div>
-
-       <div class="boxImg2">
-            <a href="#">
-                <figure>
-                 <img src="img/new/remeraastor.jpeg" alt="RemeraAstor" class="imgNuevo">
-                </figure>
-            </a>
         </div>
+    </nav>
 
-        <div class="boxImg3">
-            <a href="#">
-                <figure>
-                 <img src="img/new/remeradenis.jpeg" alt="RemeraDenis" class="imgNuevo">
-                </figure>
-            </a>
+    <main class="container-fluid">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/descuento.png" class="d-block w-100" alt="descuento">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/imgInicio1.png" class="d-block w-100" alt="imgInicio1">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
+        </div>
+    </main>
+    <section class="container-fluid">
+        <div class="row justify-content-around">
+            <h2 class="text-center text-light m-5 lines-effects">Lo Nuevo</h2>
 
-        <div class="boxImg4">
-            <a href="#">
-                <figure>
-                 <img src="img/new/sweatertyler.jpeg" alt="SweaterTyler" class="imgNuevo">
-                </figure>
-            </a>
-        </div>
-        <!--Fin Lo Nuevo-->
-        <h1 class="inicioCategorias">CATEGORIAS</h1>
-        <!-- Categorias-->
-        <div class="boxImg5">
-            <a href="#" class="aCategorias">
-                <figure>
-                 <img src="img/categorias/buzos.png" alt="Buzos" class="imgCategorias">
-                </figure>
-            </a>
-        </div>
-        
-        <div class="boxImg6">
-            <a href="#" class="aCategorias">
-                <figure>
-                 <img src="img/categorias/camperas.png" alt="Camperas" class="imgCategorias">
-                </figure>
-            </a>
-        </div>
+            <div class="card bg-black text-white container-nuevo" style="width: 18rem;">
+                <img src="./img/new/buzoinder.jpeg" class="card-img-top" alt="buzoinder">
+                <div class="card-body">
+                    <h1 class="h5 card-title">Buzo Inder</h1>
+                    <a href="#" class="btn btn-black text-white">$5,700</a>
+                </div>
+            </div>
 
-        <div class="boxImg7">
-            <a href="#" class="aCategorias">
-                <figure>
-                 <img src="img/categorias/pantalones.png" alt="pantalones" class="imgCategorias" >
-                </figure>
-            </a>
-        </div>
+            <div class="card bg-black text-white container-nuevo" style="width: 18rem;">
+                <img src="./img/new/remeraastor.jpeg" class="card-img-top" alt="remeraastor">
+                <div class="card-body">
+                    <h3 class="h5 card-title">Remera Astor</h3>
+                    <a href="#" class="btn btn-black text-white">$2,800</a>
+                </div>
+            </div>
 
-        <div class="boxImg8">
-            <a href="#" class="aCategorias">
-                <figure>
-                 <img src="img/categorias/remeras.png" alt="Remeras" class="imgCategorias">
-                </figure>
-            </a>
-        </div>
-        <!--Fin Categorias-->
-         <h1 class="loMasVendido">LO MAS VENDIDO</h1>
-        <!--Lo Mas Vendido-->
-        <div class="boxImg9">
-            <a href="#">
-                <figure>
-                 <img src="img/lomasvendido/buzomickey.jpeg" alt="BuzoMickey" class="imgloMasVendido">
-                </figure>
-            </a>
-        </div>
+            <div class="card bg-black text-white container-nuevo" style="width: 18rem;">
+                <img src="./img/new/remeradenis.jpeg" class="card-img-top" alt="remeradenis">
+                <div class="card-body">
+                    <h3 class="h5 card-title">Remera Denis</h2>
+                        <a href="#" class="btn btn-black text-white">$3,150</a>
+                </div>
+            </div>
 
-        <div class="boxImg10">
-            <a href="#">
-                <figure>
-                 <img src="img/lomasvendido/joggernegro.jpeg" alt="JoggerNegro" class="imgloMasVendido">
-                </figure>
-            </a>
+            <div class="card bg-black text-white container-nuevo" style="width: 18rem;">
+                <img src="./img/new/sweatertyler.jpeg" class="card-img-top" alt="sweatertyler">
+                <div class="card-body">
+                    <h3 class="h5 card-title">Sweater Tyler</h2>
+                        <a href="#" class="btn btn-black text-white">$4,800</a>
+                </div>
+            </div>
         </div>
+        <div class="row justify-content-around">
+            <h2 class="text-center text-light m-5 lines-effects">Categorias</h2>
 
-        <div class="boxImg11">
-            <a href="#">
-                <figure>
-                 <img src="img/lomasvendido/joggerperla.jpeg" alt="JoggerPerla" class="imgloMasVendido">
-                </figure>
-            </a>
+            <div class="card bg-black text-white" style="width: 18rem;">
+                <a href="#">
+                    <img src="./img/categorias/buzos.png" class="card-img-top" alt="buzos">
+                </a>
+            </div>
+
+            <div class="card bg-black text-white" style="width: 18rem;">
+                <a href="#">
+                    <img src="./img/categorias/camperas.png" class="card-img-top" alt="camperas">
+                </a>
+            </div>
+
+            <div class="card bg-black text-white" style="width: 18rem;">
+                <a href="#">
+                    <img src="./img/categorias/pantalones.png" class="card-img-top" alt="pantalones">
+                </a>
+            </div>
+
+            <div class="card bg-black text-white" style="width: 18rem;">
+                <a href="#">
+                    <img src="./img/categorias/remeras.png" class="card-img-top" alt="remeras">
+                </a>
+            </div>
         </div>
+        <div class="row justify-content-around">
+            <h2 class="text-center text-light m-5 lines-effects">Lo Mas Vendido</h2>
 
-        <div class="boxImg12">
-            <a href="#">
-                <figure>
-                 <img src="img/lomasvendido/joggerverde.jpg" alt="JoggerVerde" class="imgloMasVendido">
-                </figure>
-            </a>
+            <div class="card bg-black text-white container-vendido" style="width: 18rem;">
+                <img src="./img/lomasvendido/joggernegro.jpeg" class="card-img-top" alt="joggernegro">
+                <div class="card-body">
+                    <h3 class="h5 card-title">Jogger Negro</h3>
+                    <a href="#" class="btn btn-black text-white">$5,500</a>
+                </div>
+            </div>
+
+            <div class="card bg-black text-white container-vendido" style="width: 18rem;">
+                <img src="./img/lomasvendido/buzomickey.jpeg" class="card-img-top" alt="buzomickey">
+                <div class="card-body">
+                    <h3 class="h5 card-title">Buzo Mickey</h3>
+                    <a href="#" class="btn btn-black text-white">$8,000</a>
+                </div>
+            </div>
+
+            <div class="card bg-black text-white container-vendido" style="width: 18rem;">
+                <img src="./img/lomasvendido/joggerverde.jpg" class="card-img-top" alt="joggerverde">
+                <div class="card-body">
+                    <h3 class="h5 card-title">Jogger Verde</h3>
+                    <a href="#" class="btn btn-black text-white">$5,500</a>
+                </div>
+            </div>
+
+            <div class="card bg-black text-white container-vendido" style="width: 18rem;">
+                <img src="./img/lomasvendido/joggerperla.jpeg" class="card-img-top" alt="joggerperla">
+                <div class="card-body">
+                    <h3 class="h5 card-title">Jogger Perla</h3>
+                    <a href="#" class="btn btn-black text-white">$5,500</a>
+                </div>
+            </div>
         </div>
-   </div>
-
-   
-
-    <footer class="footerCss">
-        <p>Copyright @Miqueas.Lukas</p>
+    </section>
+    <!-- Footer -->
+    <footer class="text-end footer-style text-light mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <h2>Dirección</h2>
+                    <p>
+                        CBA - Argentina
+                    </p>
+                    <p>
+                        Malvinas Argentinas
+                    </p>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h2>Mis redes</h2>
+                    <ul class="list-inline botones-redes">
+                        <li>
+                            <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                    class="fa fa-fw fa-dribbble"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

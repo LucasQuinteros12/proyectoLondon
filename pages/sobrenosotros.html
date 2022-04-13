@@ -4,103 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/7b083a6b27.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="icon" href="../img/l.png">
     <title>London|Sobre Nosotros</title>
 </head>
 <body>
-    <p class="envios">ENVIOS A TODO EL PAIS</p>
+    <header>
+        <p class="text-center text-light m-0 fw-bold">ENVIOS A TODO EL PAIS</p>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fw-bold">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3" href="../index.html">London Indumentaria</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-black" aria-current="page" href="../index.html">INICIO</a>
+                        <a class="nav-link text-black" href="catalogo.html">CATALOGO</a>
+                        <a class="nav-link text-black" href="contacto.html">CONTACTO</a>
+                        <a class="nav-link text-black" href="mediosdepago.html">MEDIOS DE PAGO</a>
+                        <a class="nav-link text-black" href="sobrenosotros.html">SOBRE NOSOTROS</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="row m-5">
+            <div class="col-6 d-flex justify-content-end">
+                <figure>
+                    <img src="../img/sobrenosotros/sobrenosotrosinicio.jpg" alt="sobrenosotros" class="imgInicioSobreNosotros">
+                </figure>
+            </div>
+            
+            <div class="col-6 d-flex flex-column text-center text-light">
+                <h1 class="h3">Sobre Nosotros</h1>
+                <p>
+                Somos una empresa nueva con un equipo experimentado en cada una de las areas que nos competen. Llegamos para quedarnos. <span class="spanSobreNosotros"> Nos especializamos en el comercio de ropa masculina y estamos en constante desarrollo y actualizaciones para que ustedes puedan acceder a nuestros increíbles precios y productos de la manera mas simple y eficaz posible.</span></p>
+            </div>
+        </div>
+
+        <div class="row text-light">
+            <div class="col-4">
+                <figure class="mb-4">
+                    <img src="../img/sobrenosotros/maniqui.png" alt="maniqui" class="imgManiqui">
+                </figure>
+                <h2 class="text-center mb-4">La Mejor Calidad</h2>
+                <p class="text-center">Trabajamos con las mejores prendas de cada marca, creemos que podemos lograr un equilibrio genial entre precio calidad.</p>
+            </div>
+            <div class="col-4">
+                <figure>
+                    <img src="../img/sobrenosotros/etiqueta.png" alt="etiqueta" class="imgEtiqueta">
+                </figure>
+                <h2 class="text-center mb-4">Precios Muy Bajos</h2>
+                <p class="text-center">Sacrificamos ganancias para que todos tengan la oportunidad de vestirse realmente bien a un precio muy accesible.</p>
+            </div>
+            <div class="col-4"> 
+                <figure>
+                    <img src="../img/sobrenosotros/candado.png" alt="candado" class="imgCandado">
+                </figure>
+                <h2 class="text-center mb-4">Pagos Seguros</h2>
+                <p class="text-center">Podes comprar con tranquilidad, lo mas importante para nosotros, es protegerte y proteger tus datos.</p>
+            </div>
+        </div>
+    </main>
     
-    <nav class="nav">
-        <h1>LONDON INDUMENTARIA</h1>
-        <div class="navContainer">
-            <label for="menu" class="navLabel">
-            <img src="../assets/menu.svg" alt="imagenMenu" class="imgMenuMobile">
-            </label>
-            <input type="checkbox" id="menu" class="navInput">
-        
-
-            <ul class="navMenu">
-        
-                <li>
-                    <img src="../img/hogar (1).png" alt="Home" class="imgMenu">
-                    <a href="../index.html" class="navItem">
-                        INICIO
-                    </a>
-                </li>
-                <li>
-                    <img src="../img/camiseta.png" alt="catalogo" class="imgMenu">
-                    <a href="/pages/catalogo.html" class="navItem">
-                        CATALOGO
-                    </a>
-                </li>
-                <li>
-                    <img src="../img/contacto.png" alt="contacto" class="imgMenu">
-                    <a href="/pages/contacto.html" class="navItem">
-                        CONTACTO
-                    </a>
-                </li>
-                <li>
-                    <img src="../img/metodosdepago.png"        alt="mediosdepago" class="imgMenu">    
-                    <a href="/pages/mediosdepago.html" class="navItem">
-                        MEDIOS DE PAGO
-                    </a>
-                </li>
-                <li>
-                    <img src="../img/sobrenosotros.png"        alt="sobrenosotros" class="imgMenu">
-                    <a href="/pages/sobrenosotros.html" class="navItem">
-                        SOBRE NOSOTROS
-                    </a>
-                </li>
-
-
-            </ul>
-        </div>
-    </nav>
-
-    <div class="containerSobreNosotros">
-        <div class="imgSobreNosotros">
-            <figure>
-                <img src="../img/sobrenosotros/sobrenosotrosinicio.jpg" alt="sobrenosotros" class="imgInicioSobreNosotros">
-            </figure>
-        </div>
-
-        <div class="textSobreNosotros">
-            <h3>Sobre Nosotros</h3>
+    <!-- Footer -->
+    <footer class="text-end footer-style text-light mt-5">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4 footer-col">
+            <h2>Dirección</h2>
             <p>
-            Somos una empresa nueva con un equipo experimentado en cada una de las areas que nos competen. Llegamos para quedarnos. <span class="spanSobreNosotros"> Nos especializamos en el comercio de ropa masculina y estamos en constante desarrollo y actualizaciones para que ustedes puedan acceder a nuestros increíbles precios y productos de la manera mas simple y eficaz posible.</span></p>
+                CBA - Argentina
+            </p>
+            <p>
+                Malvinas Argentinas
+            </p>
+            </div>
+            <div class="col-md-4 footer-col">
+            <h2>Mis redes</h2>
+            <ul class="list-inline botones-redes">
+                <li>
+                <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                </li>
+                <li>
+                <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                </li>
+                <li>
+                <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                </li>
+                <li>
+                <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                </li>
+                <li>
+                <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                </li>
+            </ul>
+            </div>
         </div>
-        <div class="imgSobreNosotros1">
-            <figure>
-                <img src="../img/sobrenosotros/maniqui.png" alt="maniqui" class="imgManiqui">
-            </figure>
-            <h2 class="tituloCalidad">La Mejor Calidad</h2>
-            <p class="calidad">Trabajamos con las mejores prendas de cada marca, creemos que podemos lograr un equilibrio genial entre precio calidad.</p>
         </div>
-        <div class="imgSobreNosotros2">
-            <figure>
-                <img src="../img/sobrenosotros/etiqueta.png" alt="etiqueta" class="imgEtiqueta">
-            </figure>
-            <h2 class="tituloPrecios">Precios Muy Bajos</h2>
-            <p class="precios">Sacrificamos ganancias para que todos tengan la oportunidad de vestirse realmente bien a un precio muy accesible.</p>
-        </div>
-        <div class="imgSobreNosotros3"> 
-            <figure>
-                <img src="../img/sobrenosotros/candado.png" alt="candado" class="imgCandado">
-            </figure>
-            <h2 class="tituloSeguridad">Pagos Seguros</h2>
-            <p class="seguridad">Podes comprar con tranquilidad, lo mas importante para nosotros, es protegerte y proteger tus datos.</p>
-        </div>
-    </div>
-    <footer class="footerCss">
-        <p>Copyright @Miqueas.Lukas</p>
     </footer>
-
-
-
-
-
-
 </body>
 </html>
