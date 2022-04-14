@@ -2,95 +2,123 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/7b083a6b27.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="icon" href="../img/l.png">
-    <title>London|Medios de Pago</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Neonderthaw&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/7b083a6b27.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="icon" href="../img/l.png">
+  <title>London|Medios de Pago</title>
 </head>
 
 <body>
-    <header>
-        <p class="text-center text-light m-0 fw-bold">ENVIOS A TODO EL PAIS</p>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fw-bold">
-            <div class="container-fluid">
-                <a class="navbar-brand fs-3" href="../index.html">London Indumentaria</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active text-black" aria-current="page" href="../index.html">INICIO</a>
-                        <a class="nav-link text-black" href="catalogo.html">CATALOGO</a>
-                        <a class="nav-link text-black" href="contacto.html">CONTACTO</a>
-                        <a class="nav-link text-black" href="mediosdepago.html">MEDIOS DE PAGO</a>
-                        <a class="nav-link text-black" href="sobrenosotros.html">SOBRE NOSOTROS</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <p class="envios">ENVIOS A TODO EL PAIS</p>
 
-    <div class="container text-center text-light">
-        <h1 class="m-5 fs-2">METODOS DE PAGO</h1>
-        <h2 class="h4 m-5 text-primary">¿CUALES SON TUS MEDIOS DE PAGO?</h3>
+  <h1 class="tituloIndex animate__animated animate__backInLeft fs-4 m-3 p-3 fw-bold">LONDON INDUMENTARIA</h1>
 
-        <ul class="list-unstyled">
-            <li class="mb-5 d-flex flex-column">-EFECTIVO
-                <span>(Personalmente o Comisionista)</span>
-            </li>
-            <li class="mb-5 d-flex flex-column">-EFECTIVO EN PUNTOS DE PÁGO
-                <span>RapiPago o PagoFacil</span>
-            </li>
-            <li class="mb-5 d-flex flex-column">-DEPOSITO BANCARIO
-                <span>Banco Nacion</span>
-            </li>
-            <li>-TRANSFERENCIA BANCARIA </li>
-            
-            <li class="mb-5 d-flex flex-column">-TARJETAS DE CREDITO
-                <span>Hasta 3 cuotas s/i</span>(solo valido en compras online no en el local)
-            </li>
-            <li class="d-flex flex-column mb-5">-MERCADO PAGO
-                <span>Pagos a través de dinero en cuenta disponible o tarjeta de débito asociado a MP</span>En el
-                local
-                contamos con CODIGO QR
-                <span>* NO RECIBIMOS POR ENVIO DE DINERO *</span>
-            </li>
+  <header class="container-fluid">
+    <nav class="row">
+      <div class="Container">
+        <label for="menu" class="navLabel">
+          <img src="assets/menu.svg" alt="imagenMenu" class="imgMenuMobileC">
+        </label>
+        <input type="checkbox" id="menu" class="navInput">
+
+
+        <ul class="navMenu">
+
+          <li>
+            <img src="../img/hogar (1).png" alt="Home" class="imgMenu">
+            <a href="../index.html" class="navItem">
+              INICIO
+            </a>
+          </li>
+          <li>
+            <img src="../img/camiseta.png" alt="catalogo" class="imgMenu">
+            <a href="./catalogo.html" class="navItem">
+              CATALOGO
+            </a>
+          </li>
+          <li>
+            <img src="../img/contacto.png" alt="contacto" class="imgMenu">
+            <a href="./contacto.html" class="navItem">
+              CONTACTO
+            </a>
+          </li>
+          <li>
+            <img src="../img/metodosdepago.png" alt="mediosdepago" class="imgMenu">
+            <a href="./mediosdepago.html" class="navItem">
+              MEDIOS DE PAGO
+            </a>
+          </li>
+          <li>
+            <img src="../img/sobrenosotros.png" alt="sobrenosotros" class="imgMenu">
+            <a href="./sobrenosotros.html" class="navItem">
+              SOBRE NOSOTROS
+            </a>
+          </li>
         </ul>
+      </div>
+    </nav>
+  </header>
 
-        <h4 class="text-primary">¿CUANTO TIEMPO TARDA EN ACREDITARSE EL PAGO?</h4>
-        <p class="d-flex flex-column">
-            Dependiendo del método elegido, desde el mismo instante <span>HASTA 2 DIAS HABILES
-            </span> (Este ultimo, en caso de algunos bancos)
+  <div class="mediosDePago">
+    <h2 class="tituloMediosDePago">METODOS DE PAGO</h2>
+    <h3 class="subTituloPagos">¿CUALES SON TUS MEDIOS DE PAGO?</h3>
+    <ul class="ulMediosDePago">
+      <li class="liMediosDePago">-EFECTIVO
+        <span>(Personalmente o Comisionista)</span>
+      </li>
+      <li class="liMediosDePago">-EFECTIVO EN PUNTOS DE PÁGO
+        <span>RapiPago o PagoFacil</span>
+      </li>
+      <li class="liMediosDePago">-DEPOSITO BANCARIO
+        <span>Banco Nacion</span>
+      </li>
+      <li class="liMediosDePago">-TRANSFERENCIA BANCARIA
+        <span></span>
+      </li>
+      <li class="liMediosDePago">-TARJETAS DE CREDITO
+        <span>Hasta 3 cuotas s/i</span>(solo valido en compras online no en el local)
+      </li>
+      <li class="liMediosDePago">-MERCADO PAGO
+        <span>Pagos a través de dinero en cuenta disponible o tarjeta de débito asociado a MP</span>En el local contamos
+        con CODIGO QR
+        <span>* NO RECIBIMOS POR ENVIO DE DINERO *</span>
 
-        </p>
+      </li>
+    </ul>
 
-    </div>
+    <h4>¿CUANTO TIEMPO TARDA EN ACREDITARSE EL PAGO?</h4>
+    <p class="parrafoMediosDePago">
+      Dependiendo del método elegido, desde el mismo instante <span class="diasHabiles">HASTA 2 DIAS HABILES </span>
+      (Este ultimo, en caso de algunos bancos)
 
-    <!-- Footer -->
-  <footer class="text-end footer-style text-light mt-5">
+    </p>
+  </div>
+  <!-- Footer -->
+  <footer class="text-center footer-style footer-contacto">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 footer-col">
+        <div class="col-md-6 footer-col">
           <h2>Dirección</h2>
           <p>
-            CBA - Argentina
+            CBA - Argentinas
           </p>
           <p>
             Malvinas Argentinas
           </p>
         </div>
-        <div class="col-md-4 footer-col">
+        <div class="col-md-6 footer-col">
           <h2>Mis redes</h2>
-          <ul class="list-inline botones-redes">
+          <ul class="list-inline">
             <li>
               <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
             </li>
@@ -111,6 +139,10 @@
       </div>
     </div>
   </footer>
+  <!-- Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

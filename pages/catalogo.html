@@ -5,174 +5,215 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/7b083a6b27.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/7b083a6b27.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../styles/main.css">
   <link rel="icon" href="../img/l.png">
   <title>London|Catalogo</title>
 </head>
 
 <body>
- <header>
-    <p class="text-center text-light m-0 fw-bold">ENVIOS A TODO EL PAIS</p>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fw-bold">
-      <div class="container-fluid">
-        <a class="navbar-brand fs-3" href="../index.html">London Indumentaria</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active text-black" aria-current="page" href="../index.html">INICIO</a>
-            <a class="nav-link text-black" href="catalogo.html">CATALOGO</a>
-            <a class="nav-link text-black" href="contacto.html">CONTACTO</a>
-            <a class="nav-link text-black" href="mediosdepago.html">MEDIOS DE PAGO</a>
-            <a class="nav-link text-black" href="sobrenosotros.html">SOBRE NOSOTROS</a>
-          </div>
-        </div>
+  <p class="envios">ENVIOS A TODO EL PAIS</p>
+
+  <h1 class="tituloIndex animate__animated animate__backInLeft fs-4 m-3 p-3 fw-bold">LONDON INDUMENTARIA</h1>
+
+  <header class="container-fluid">
+    <nav class="row">
+      <div class="Container">
+        <label for="menu" class="navLabel">
+          <img src="assets/menu.svg" alt="imagenMenu" class="imgMenuMobileC">
+        </label>
+        <input type="checkbox" id="menu" class="navInput">
+
+
+        <ul class="navMenu">
+
+          <li>
+            <img src="../img/hogar (1).png" alt="Home" class="imgMenu">
+            <a href="../index.html" class="navItem">
+              INICIO
+            </a>
+          </li>
+          <li>
+            <img src="../img/camiseta.png" alt="catalogo" class="imgMenu">
+            <a href="./catalogo.html" class="navItem">
+              CATALOGO
+            </a>
+          </li>
+          <li>
+            <img src="../img/contacto.png" alt="contacto" class="imgMenu">
+            <a href="./contacto.html" class="navItem">
+              CONTACTO
+            </a>
+          </li>
+          <li>
+            <img src="../img/metodosdepago.png" alt="mediosdepago" class="imgMenu">
+            <a href="./mediosdepago.html" class="navItem">
+              MEDIOS DE PAGO
+            </a>
+          </li>
+          <li>
+            <img src="../img/sobrenosotros.png" alt="sobrenosotros" class="imgMenu">
+            <a href="./sobrenosotros.html" class="navItem">
+              SOBRE NOSOTROS
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
-    <h1 class="fs-2 text-center text-light m-5">CATALOGO</h1>
- </header>
+  </header>
 
- <div class="container d-flex justify-content-end">
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle bg-black" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-     Ordenar Por los ultimos
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-      <li><a class="dropdown-item" href="#">Ordenar por popularidad</a></li>
-      <li><a class="dropdown-item" href="#">Ordenar por los ultimos</a></li>
-      <li><a class="dropdown-item" href="#">Ordenar por precio: bajo a alto</a></li>
-      <li><a class="dropdown-item" href="#">Ordenar por precio: alto a bajo</a></li>
-    </ul>
+  <h2 class="tituloCatalogo">CATALOGO</h2>
+
+  <div class="containerCatalogo">
+    <section class="contenedorTodo">
+      <div class="containerCategorias">
+        <h2 class="categoriaTitulo">
+          CATEGORIAS
+        </h2>
+        <ul class="categorias">
+          <li>Riñoneras</li>
+          <li>Mochilas</li>
+          <li>Cinturones</li>
+          <li>Mallas</li>
+          <li>Pantalones</li>
+          <li>Calzados</li>
+          <li>Jeans</li>
+          <li>joggers</li>
+          <li>Ver Mas</li>
+        </ul>
+      </div>
+
+      <div class="containerFiltros">
+        <h2 class="filtroTitulo">
+          FILTRAR
+        </h2>
+        <ul class="filtros">
+          <li>Amarillo</li>
+          <li>Durazno</li>
+          <li>Ladrillo</li>
+          <li>Rojo</li>
+          <li>Negro</li>
+          <li>Ver Todos</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="cajaImg1 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/buzoButter.jpeg" alt="buzoButter">
+        </figure>
+      </a>
+      <p class="parrafo1">Buzo Butter <span>$3,200</span></p>
+    </div>
+
+    <div class="cajaImg2 boxCatalogo">
+      <a href="#" class="aCatalogo">
+        <figure>
+          <img src="../img/catalogo/camisaorion.jpeg" alt="camisaOrion">
+        </figure>
+      </a>
+      <p class="parrafo2">Camisa Orion <span>$4,000</span></p>
+    </div>
+
+    <div class="cajaImg3 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/buzoHans.jpeg" alt="buzoHans">
+        </figure>
+      </a>
+      <p class="parrafo3">Buzo Hans <span>$5,600</span></p>
+    </div>
+
+    <div class="cajaImg4 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/buzoHealt.jpeg" alt="buzoHealth">
+        </figure>
+      </a>
+      <p class="parrafo4">Buzo Health <span>$6,500</span> </p>
+    </div>
+
+    <div class="cajaImg5 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/jeansRich.jpeg" alt="jeansRich">
+        </figure>
+      </a>
+      <p class="parrafo5">Jeans Rich <span>$5,150</span></p>
+    </div>
+
+    <div class="cajaImg6 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/camperaAries.jpeg" alt="camperaAries">
+        </figure>
+      </a>
+      <p class="parrafo6">Campera Aries <span>$6,200</span></p>
+    </div>
+
+    <div class="cajaImg7 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/jeanstom.jpeg" alt="jeansTom">
+        </figure>
+      </a>
+      <p class="parrafo7">Jeans Tom <span>$5,700</span></p>
+    </div>
+
+    <div class="cajaImg8 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/remeraAlisson.jpeg" alt="remeraAlisson">
+        </figure>
+      </a>
+      <p class="parrafo8">Remera Alisson <span>$1,650</span></p>
+    </div>
+
+    <div class="cajaImg9 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/camperaCedric.jpeg" alt="camperaCedric">
+        </figure>
+      </a>
+      <p class="parrafo9">Campera Cedric <span>$5,800</span></p>
+    </div>
+
+    <div class="cajaImg10 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/camperaludeca.jpeg" alt="camperaludeca">
+        </figure>
+      </a>
+      <p class="parrafo10">Campera Ludeca <span>$6,500</span></p>
+    </div>
+
+    <div class="cajaImg11 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/remeraBag.jpeg" alt="remeraBag">
+        </figure>
+      </a>
+      <p class="parrafo11"> Remera Bag <span>$1,750</span></p>
+    </div>
+
+    <div class="cajaImg12 boxCatalogo">
+      <a href="#">
+        <figure>
+          <img src="../img/catalogo/buzoHuella.jpeg" alt="buzoHuella">
+        </figure>
+      </a>
+      <p class="parrafo12">Buzo Huella <span>$7,100</span></p>
+    </div>
   </div>
- </div>
-
-  <main class="container">
-    <div class="row justify-content-center mb-5">
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/buzoButter.jpeg" class="card-img-top" alt="buzoButter">
-        <div class="card-body">
-          <h2 class="h5 card-title">Buzo Butter</h2>
-          <a href="#" class="btn btn-primary">$3,200</a>
-        </div>
-      </div>
-
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/camisaorion.jpeg" class="card-img-top" alt="camisaorion">
-        <div class="card-body">
-          <h2 class="h5 card-title">Camisa Orion</h2>
-          <a href="#" class="btn btn-primary">$4,000</a>
-        </div>
-      </div>
-
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/jeansRich.jpeg" class="card-img-top" alt="jeansRich">
-        <div class="card-body">
-          <h2 class=" h5 card-title">Jeans Rich</h2>
-          <a href="#" class="btn btn-primary">$5,150</a>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center mb-5">
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/jeanstom.jpeg" class="card-img-top" alt="jeanstom">
-        <div class="card-body">
-          <h2 class="h5 card-title">Jeans Tom</h2>
-          <a href="#" class="btn btn-primary">$5,700</a>
-        </div>
-      </div>
-
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/buzoHans.jpeg" class="card-img-top" alt="buzoHans">
-        <div class="card-body">
-          <h2 class="h5 card-title">Buzo Hans</h2>
-          <a href="#" class="btn btn-primary">$5,600</a>
-        </div>
-      </div>
-
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/camperaAries.jpeg" class="card-img-top" alt="camperaAries">
-        <div class="card-body">
-          <h2 class="h5 card-title">Campera Aries</h2>
-          <a href="#" class="btn btn-primary">$6,200</a>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center mb-5">
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/remeraAlisson.jpeg" class="card-img-top" alt="remeraAlisson">
-        <div class="card-body">
-          <h2 class="h5 card-title">Remera Alisson</h2>
-          <a href="#" class="btn btn-primary">$1,650</a>
-        </div>
-      </div>
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/buzoHealt.jpeg" class="card-img-top" alt="buzoHealt">
-        <div class="card-body">
-          <h2 class="h5 card-title">Buzo Healt</h2>
-          <a href="#" class="btn btn-primary">$6,500</a>
-        </div>
-      </div>
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/camperaludeca.jpeg" class="card-img-top" alt="camperaludeca">
-        <div class="card-body">
-          <h2 class="h5 card-title">Campera Ludeca</h2>
-          <a href="#" class="btn btn-primary">$6,500</a>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center mb-5">
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/remeraBag.jpeg" class="card-img-top" alt="remeraBag">
-        <div class="card-body">
-          <h2 class="h5 card-title">Remera Bag</h2>
-          <a href="#" class="btn btn-primary">$1,750</a>
-        </div>
-      </div>
-
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/buzoHuella.jpeg" class="card-img-top" alt="buzoHuella">
-        <div class="card-body">
-          <h2 class="h5 card-title">Buzo Huella</h2>
-          <a href="#" class="btn btn-primary">$7,100</a>
-        </div>
-      </div>
-
-      <div class="card m-2 bg-black text-white" style="width: 18rem;">
-        <img src="../img/catalogo/camperaCedric.jpeg" class="card-img-top" alt="camperaCedric">
-        <div class="card-body">
-          <h2 class="h5 card-title">Campera Cedric</h5>
-            <a href="#" class="btn btn-primary">$5,800</a>
-        </div>
-      </div>
-    </div>
-  </main>
-  <section class="container mt-4">
-    <nav aria-label="Page navigation example">
-      <ul class="pagination justify-content-center">
-        <li class="page-item disabled">
-          <a class="page-link bg-black text-light">Anterior</a>
-        </li>
-        <li class="page-item"><a class="page-link bg-black text-light" href="#">1</a></li>
-        <li class="page-item"><a class="page-link bg-black text-light" href="#">2</a></li>
-        <li class="page-item"><a class="page-link bg-black text-light" href="#">3</a></li>
-        <li class="page-item"><a class="page-link bg-black text-light" href="#">4</a></li>
-        <li class="page-item"><a class="page-link bg-black text-light" href="#">5</a></li>
-        <li class="page-item">
-          <a class="page-link bg-black text-light" href="#">Siguiente</a>
-        </li>
-      </ul>
-    </nav>
-  </section>
   <!-- Footer -->
-  <footer class="text-end footer-style text-light mt-4">
+  <footer class="text-center footer-style footer-contacto">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 footer-col">
+        <div class="col-md-6 footer-col">
           <h2>Dirección</h2>
           <p>
             CBA - Argentina
@@ -181,9 +222,9 @@
             Malvinas Argentinas
           </p>
         </div>
-        <div class="col-md-4 footer-col">
+        <div class="col-md-6 footer-col">
           <h2>Mis redes</h2>
-          <ul class="list-inline botones-redes">
+          <ul class="list-inline">
             <li>
               <a target="_blank" href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
             </li>
@@ -201,13 +242,14 @@
             </li>
           </ul>
         </div>
+
       </div>
     </div>
   </footer>
-
+  <!-- Footer -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
