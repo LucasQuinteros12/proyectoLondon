@@ -1,0 +1,917 @@
+//variables
+$color-principal-fondo: black;
+$color-titulo: white;
+$fuente-principal: Helvetica, sans-serif;
+
+
+// reset 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.envios{
+    background-color: white;
+    color: black;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin: 1.8rem;
+}
+// propiedades del index
+
+body{
+    background-color: $color-principal-fondo;
+    font-family: $fuente-principal;
+}
+
+h1{
+    text-align: center;
+    color: $color-titulo;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+header{
+    nav{
+        div{
+            .titulo-nav{
+                display: none;
+            }
+        }
+    }
+}
+
+.descuento{
+    width: 100%;
+    height: 70vh;
+}
+
+.containerImg{
+    display:grid;
+    grid-template-areas:"loNuevo loNuevo loNuevo loNuevo"
+                        "boxImg1 boxImg2 boxImg3 boxImg4"
+                        "inicioCategorias inicioCategorias inicioCategorias inicioCategorias"
+                        "boxImg5 boxImg6 boxImg7 boxImg8"
+                        "loMasVendido loMasVendido loMasVendido loMasVendido"
+                        "boxImg9 boxImg10 boxImg11 boxImg12";                
+   justify-content: center;
+
+   .loNuevo{
+        grid-area: loNuevo;
+    }
+    .inicioCategorias{
+        grid-area: inicioCategorias;
+    }
+    .loMasVendido{
+        grid-area: loMasVendido;
+    }
+    .boxImg1{
+        grid-area: boxImg1;
+        .imgNuevo{
+            display: block;
+            margin-left: 10%;
+            height: 300px;
+            width: 247px;
+        }
+    }
+    .boxImg2{
+        grid-area: boxImg2;
+        .imgNuevo{
+            display: block;
+            margin-left: 10%;
+            height: 300px;
+            width: 247px;
+        }
+    }
+    .boxImg3{
+        grid-area: boxImg3;
+        .imgNuevo{
+            display: block;
+            margin-left: 10%;
+            height: 300px;
+            width: 247px;
+        }
+    }
+    .boxImg4{
+        grid-area: boxImg4;
+        .imgNuevo{
+            display: block;
+            margin-left: 10%;
+            height: 300px;
+            width: 247px;
+        }
+    }
+    .boxImg5{
+        grid-area: boxImg5;
+        .imgCategorias{
+            margin-left: 10%;
+            width: 80%;
+        }
+        .aCategorias:hover{
+            display: block;
+            transform: scale(1.07);
+            transition: 0.8s;
+        }
+    }
+    .boxImg6{
+        grid-area: boxImg6;
+        .imgCategorias{
+            margin-left: 10%;
+            width: 80%;
+        }
+        .aCategorias:hover{
+            display: block;
+            transform: scale(1.07);
+            transition: 0.8s;
+        }
+    }
+    .boxImg7{
+        grid-area: boxImg7;
+        .imgCategorias{
+            margin-left: 10%;
+            width: 80%;
+        }
+        .aCategorias:hover{
+            display: block;
+            transform: scale(1.07);
+            transition: 0.8s;
+        }
+    }
+    .boxImg8{
+        grid-area: boxImg8;
+        .imgCategorias{
+            margin-left: 10%;
+            width: 80%;
+        }
+        .aCategorias:hover{
+            display: block;
+            transform: scale(1.07);
+            transition: 0.8s;
+        }
+    }
+    .boxImg9{
+        grid-area: boxImg9;
+        .imgloMasVendido{
+            margin-left: 10%;
+            height: 300px;
+            width: 247px;
+        }
+    }
+    .boxImg10{
+        grid-area: boxImg10;
+        .imgloMasVendido{
+            margin-left: 10%;
+            height: 300px;
+            width: 247px;
+        }
+    }
+    .boxImg11{
+        grid-area: boxImg11;
+        .imgloMasVendido{
+            margin-left: 10%;
+            height: 300px;
+            width: 247px;
+        }
+    }
+    .boxImg12{
+        grid-area: boxImg12;
+        .imgloMasVendido{
+            margin-left: 10%;
+            height: 300px;
+            width: 247px;
+        }
+    }
+    
+}
+
+.lines-effects{
+    display: inline-block;
+    position: relative;
+}
+
+.lines-effects::after,.lines-effects::before{
+    content:'';
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background-color: rgba(68, 68, 68, 100);
+    top: 0.6em;
+}
+
+.lines-effects::before{
+    left:-140px;
+}
+
+.lines-effects::after{
+    right: -140px;
+}
+
+//propiedades catalogo 
+
+.containerCatalogo{
+    display: grid;
+    grid-template-areas:"contenedorTodo cajaImg1 cajaImg2 cajaImg3"
+                        "contenedorTodo parrafo1 parrafo2 parrafo3"
+                        "contenedorTodo cajaImg4 cajaImg5 cajaImg6"
+                        "contenedorTodo parrafo4 parrafo5 parrafo6"
+                        "contenedorTodo cajaImg7 cajaImg8 cajaImg9"
+                        "contenedorTodo parrafo7 parrafo8 parrafo9"
+                        "contenedorTodo cajaImg10 cajaImg11 cajaImg12"
+                        "contenedorTodo parrafo10 parrafo11 parrafo12";
+    justify-content: center;
+    gap: 20px;
+    row-gap: 30px;
+    .contenedorTodo{
+        grid-area: contenedorTodo;
+        .containerCategorias{
+            .categoriaTitulo{
+                text-align: start ;
+                font-size: 20px;
+                color: white;
+            }
+            .categorias{
+                color: white;
+                font-size: 16px;
+                margin: 10px;
+                list-style: none;
+                margin-top: 40px;
+                li{
+                    margin: 15px;
+                }
+            }
+        }
+        .containerFiltros{
+            .filtroTitulo{
+                text-align: start;
+                font-size: 20px;
+                color: white;
+            }
+            .filtros{
+                color: white;
+                font-size: 16px;
+                margin: 15px;
+                list-style: none;
+                margin-top: 40px;
+            
+            }
+        }
+    }
+    .boxCatalogo:hover{
+        display: block;
+        transform: scale(1.07);
+        transition: 0.4s;
+    }
+    .cajaImg1{
+        grid-area: cajaImg1;
+        .parrafo1{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo1;
+        }
+    }
+    .cajaImg2{
+        grid-area: cajaImg2;
+        .parrafo2{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo2;
+        }
+    }
+    .cajaImg3{
+        grid-area: cajaImg3;
+        .parrafo3{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo3;
+        }
+    }
+    .cajaImg4{
+        grid-area: cajaImg4;
+        .parrafo4{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo4;
+        }
+    }
+    .cajaImg5{
+        grid-area: cajaImg5;
+        .parrafo5{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo5;
+        }
+    }
+    .cajaImg6{
+        grid-area: cajaImg6;
+        .parrafo6{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo6;
+        }
+    }
+    .cajaImg7{
+        grid-area: cajaImg7;
+        .parrafo7{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo7;
+        }
+    }
+    .cajaImg8{
+        grid-area: cajaImg8;
+        .parrafo8{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo8;
+        }
+    }
+    .cajaImg9{
+        grid-area: cajaImg9;
+        .parrafo9{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo9;
+        }
+    }
+    .cajaImg10{
+        grid-area: cajaImg10;
+        .parrafo10{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo10;
+        }
+        
+    }
+    .cajaImg11{
+        grid-area: cajaImg11;
+        .parrafo11{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo11;
+        }
+    }
+    .cajaImg12{
+        grid-area: cajaImg12;
+        .parrafo12{
+            font-weight: bold;
+            color: white;
+            grid-area: parrafo12;
+        }
+    }
+
+}
+
+// propiedades contacto
+
+.tituloContacto{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tituloNav{
+
+    font-weight: bold;
+}
+
+label{
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    margin: 10px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+/* footer */
+
+.footer-style {
+    padding-top: 50px;
+    background-color: black;
+}
+.footer-contacto {
+  color: white;
+}
+.footer-contacto h2 {
+  margin-bottom: 30px;
+    font-weight: 800;
+}
+.footer-contacto .footer-above {
+  padding-top: 50px;
+  background-color: #2C3E50;
+}
+.footer-contacto .footer-col {
+  margin-bottom: 50px;
+}
+.footer-contacto .footer-below {
+  padding: 25px 0;
+  background-color: black;
+}
+// Propiedades Medios de Pago
+
+.subTituloPagos{
+    margin-top: 3%;
+    font-size: 18px;
+    color: #496A81;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive; 
+
+}
+
+.ulMediosDePago{
+    list-style: none;
+    text-align: center;
+    margin: 2%;
+}
+
+.liMediosDePago{
+    margin: 4.5%;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    
+}
+
+h4{
+    margin-top: 3%;
+    font-size: 18px;
+    color: #496A81;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive; 
+}
+
+.parrafoMediosDePago{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+.diasHabiles{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+// Propiedades sobre nosotros 
+
+.containerSobreNosotros{
+    display: grid;
+    grid-template-areas:"textSobreNosotros imgSobreNosotros imgSobreNosotros"
+                        "imgSobreNosotros1 imgSobreNosotros2 imgSobreNosotros3"
+                        "tituloCalidad tituloPrecios tituloSeguridad"
+                        "calidad precios seguridad";
+    justify-content: center;
+    margin-top: 5%;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 10%;
+    margin-top: 15%;
+    text-align: center;
+}
+.textSobreNosotros{
+    text-align: center;
+    grid-area: textSobreNosotros;
+    color: white;
+    font-weight: bold;
+}
+
+.spanSobreNosotros{
+    margin-top: 20px;
+}
+
+.imgSobreNosotros{
+    grid-area: imgSobreNosotros;
+}
+
+.imgInicioSobreNosotros{
+    width: 100%;
+    height: 60vh;
+}
+
+.imgSobreNosotros1{
+    grid-area: imgSobreNosotros1;
+}
+
+.imgManiqui{
+    margin-left: 35%;
+    width: 25%;
+}
+
+.imgSobreNosotros2{
+    grid-area: imgSobreNosotros2;
+}
+
+.imgEtiqueta{
+    margin-left: 35%;
+    width: 25%;
+}
+
+.imgSobreNosotros3{
+    grid-area: imgSobreNosotros3;
+}
+
+.imgCandado{
+    margin-left: 35%;
+    width: 25%;
+}
+
+.tituloCalidad{
+    text-align: center;
+    grid-area: tituloCalidad;
+}
+.tituloPrecios{
+    text-align: center;
+    grid-area: tituloSeguridad;
+}
+
+.tituloSeguridad{
+    text-align: center;
+    grid-area: tituloSeguridad;
+}
+
+.calidad{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    grid-area: calidad;
+}
+
+.precios{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    grid-area: precios;
+}
+
+.seguridad{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    grid-area: seguridad;
+}
+
+//media queries
+
+@media screen and (max-width:900px){
+    .containerImg{
+        display:grid;
+        grid-template-areas:"loNuevo loNuevo"
+                            "boxImg1 boxImg2"
+                            "boxImg3 boxImg4"
+                            "inicioCategorias inicioCategorias"
+                            "boxImg5 boxImg6"
+                            "boxImg7 boxImg8"
+                            "loMasVendido loMasVendido"
+                            "boxImg9 boxImg10"
+                            "boxImg11 boxImg12";  
+       justify-content: center;
+       row-gap: 10px;
+    }
+    
+    .lines-effects{
+        display: inline-block;
+        position: relative;
+    }
+    
+    .lines-effects::after,.lines-effects::before{
+        content:'';
+        position: absolute;
+        width: 200px;
+        height: 3px;
+        background-color: rgba(68, 68, 68, 100);
+        top: 0.6em;
+    }
+    
+    .lines-effects::before{
+        left:-10px;
+    }
+    
+    .lines-effects::after{
+        right:-10px;
+    }
+    
+    .img-nav{
+        display: none;
+    }
+
+    .titulo-nav{
+        display: block;
+    }
+
+    .descuento{
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgCategorias{
+        margin-left: 20%;
+        width: 70%;
+    }
+    .imgNuevo{
+        margin-left: 20%;
+        width: 70%;
+    }
+    .imgloMasVendido{
+        margin-left: 20%;
+        width: 70%;
+    }
+    // responsive categorias 
+    .containerCategorias{
+        display: none;
+    }
+    
+    .containerFiltros{
+        display: none;
+    }
+    .containerCatalogo{
+        display: grid;
+        grid-template-areas:"cajaImg1 cajaImg2 cajaImg3"
+                            "parrafo1 parrafo2 parrafo3"
+                            "cajaImg4 cajaImg5 cajaImg6"
+                            "parrafo4 parrafo5 parrafo6"
+                            "cajaImg7 cajaImg8 cajaImg9"
+                            "parrafo7 parrafo8 parrafo9"
+                            "cajaImg10 cajaImg11 cajaImg12"
+                            "parrafo10 parrafo11 parrafo12";
+        justify-content: center;
+        gap: 10px;
+        row-gap: 20px;
+    }
+    .tituloCatalogo{
+        font-size: 25px;
+    }
+    img{
+        margin-left: 10px;
+        width:100%;
+        height: 100%;
+    }
+    
+    //responsive medios de pago
+
+    .tituloMediosDePago{
+        font-size: 25px;
+    }
+    .subTituloPagos{
+        font-size: 16px;
+    }
+    .liMediosDePago{
+        font-size: 14px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    .parrafoMediosDePago{
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    //responsive sobre nosotros
+
+    .containerSobreNosotros{
+        display: grid;
+        grid-template-areas:"textSobreNosotros textSobreNosotros textSobreNosotros"
+                            "imgSobreNosotros imgSobreNosotros imgSobreNosotros"
+                            "imgSobreNosotros1 imgSobreNosotros2 imgSobreNosotros2"
+                            "tituloCalidad tituloPrecios imgSobreNosotros3"
+                            "tituloSeguridad tituloSeguridad tituloSeguridad"
+                            "calidad precios seguridad";
+        justify-content: center;
+       
+    }
+    .imgInicioSobreNosotros{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .imgManiqui{
+        width: 35%;
+        margin-left: 40%;
+    }
+
+    .imgEtiqueta{
+        width: 20%;
+    }
+
+    .imgCandado{
+        width: 25%;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    
+    .tituloIndex{
+        color:white;
+        text-align: center;
+    }
+    
+    .imgMenuMobileC{
+        width: 15%;
+    }
+    .lines-effects{
+        display: inline-block;
+        position: relative;
+    }
+    
+    .lines-effects::after,.lines-effects::before{
+        content:'';
+        position: absolute;
+        width: 200px;
+        height: 3px;
+        background-color: rgba(68, 68, 68, 100);
+        top: 0.6em;
+    }
+    
+    .lines-effects::before{
+        left:-120px;
+    }
+    
+    .lines-effects::after{
+        right:-120px;
+    }
+    
+
+    .containerImg{
+        display:grid;
+        grid-template-areas:"loNuevo"
+                            "boxImg1"
+                            "boxImg2"
+                            "boxImg3"
+                            "boxImg4"
+                            "inicioCategorias"
+                            "boxImg5"
+                            "boxImg6"
+                            "boxImg7"
+                            "boxImg8"
+                            "loMasVendido"
+                            "boxImg9"
+                            "boxImg10"
+                            "boxImg11"
+                            "boxImg12";  
+       justify-content: center;
+    }    
+    
+    .imgMenu{
+        display: block;
+        margin-left: 25%;
+    }
+    .imgCategorias{
+        margin-left: 25%;
+        width: 50%;
+    }
+    .imgNuevo{
+        margin-left: 25%;
+        width: 50%;
+    }
+    .imgloMasVendido{
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .navLabel{
+        display: block;
+        cursor: pointer;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .navMenu{
+        position:absolute ;
+        top: 80px;
+        bottom: 0;
+        background-color: white;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        transition: clip-path 1s ease-in-out;
+        opacity: 0.9;
+    }
+
+    .navInput:checked + .navMenu{
+        clip-path: circle(100% at center);
+    }
+    // Responsive catalogo
+    
+    .containerCategorias{
+        display: none;
+    }
+    
+    .containerFiltros{
+        display: none;
+    }
+    .containerCatalogo{
+        display: grid;
+        grid-template-areas:"cajaImg1 cajaImg2"
+                            "parrafo1 parrafo2"
+                            "cajaImg3 cajaImg4"
+                            "parrafo3 parrafo4"
+                            "cajaImg5 cajaImg6"
+                            "parrafo5 parrafo6"
+                            "cajaImg7 cajaImg8"
+                            "parrafo7 parrafo8"
+                            "cajaImg9 cajaImg10"
+                            "parrafo9 parrafo10"
+                            "cajaImg11 cajaImg12"
+                            "parrafo11 parrafo12";
+        justify-content: center;
+        gap: 10px;
+        row-gap: 20px;
+    }
+
+    //responsive medios de pago
+
+    .tituloMediosDePago{
+        font-size: 20px;
+    }
+    .subTituloPagos{
+        font-size: 14px;
+    }
+    .liMediosDePago{
+        font-size: 12px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    .parrafoMediosDePago{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .diasHabiles{
+        font-size: 16px;
+    }
+
+    //responsive sobre nosotros
+
+    .containerSobreNosotros{
+        display: grid;
+        grid-template-areas:"textSobreNosotros "
+                            "imgSobreNosotros"
+                            "imgSobreNosotros1"
+                            "tituloCalidad"
+                            "calidad"
+                            "imgSobreNosotros2"
+                            "tituloPrecios"
+                            "precios"
+                            "imgSobreNosotros3"
+                            "tituloSeguridad"
+                            "seguridad";
+        justify-content: center;
+    }
+
+    .imgInicioSobreNosotros{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .imgManiqui, .imgEtiqueta, .imgCandado{
+        width: 15%;
+        margin-left: 40%;
+    }
+
+    .tituloCalidad, .tituloPrecios, .tituloSeguridad{
+        font-size: 20px;
+    }
+
+    .calidad, .precios, .seguridad{
+        font-size: 14px;
+    }
+}
