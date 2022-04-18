@@ -43,47 +43,8 @@ h1{
     align-items: center;
 }
 
-
-
-nav ul li{
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px;
-}
-nav ul{
-    
-    background-color: white;
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap: nowrap;
-
-}
-
-.navLabel, .navInput{
+.titulo-nav{
     display: none;
-}
-
-.navMenu{
-    font-weight: bold;
-    font-family: Helvetica, sans-serif;
-}
-
-.navItem{
-    font-size: 18px;
-    color: black;
-    outline: none;
-    text-decoration: none;
-}
-
-.navItem:hover{
-    font-size: 18px;
-    color: white;
-    outline: none;
-    text-decoration: none;
-    background-color: black;
-    border-radius: 6px;
-    transition: 0.3s;
-    padding: 5px;
 }
 
 .descuento{
@@ -655,24 +616,19 @@ h3{
         right:-10px;
     }
     
+    .img-nav{
+        display: none;
+    }
+
+    .titulo-nav{
+        display: block;
+    }
 
     .descuento{
         width: 100%;
         height: 100%;
     }
 
-    .navMenu{
-        font-size: 12px;
-        font-weight: bold;
-    }
-    .imgMenu{
-        display:flex;
-        width: 40px;
-        height: 40px;
-        margin: 5px;
-        align-items: center;
-    }
-   
     .imgCategorias{
         margin-left: 20%;
         width: 70%;
