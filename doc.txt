@@ -1,0 +1,1 @@
+Holaa, agregue 2 mixins, un extend y un map, no le encontre mucha utilidad para este proyecto pero trate de meterlos en donde me parecio que encajaban mejor y hacian falta, tambien agregue keywords y description a todos los html.
