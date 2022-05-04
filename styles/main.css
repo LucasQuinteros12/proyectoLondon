@@ -31,9 +31,10 @@ header nav div .titulo-nav {
 .nav-link:hover {
   background-color: gray;
   opacity: 20px;
-  transform: scale(1.1);
-  transition: 0.8s;
-  border-radius: 10px; }
+  transform: scale(1);
+  transition: 0.7s;
+  border-radius: 10px;
+  max-width: max-content; }
 
 h2 {
   text-align: center;
@@ -341,6 +342,7 @@ div .diasHabiles {
   .containerSobreNosotros .imgSobreNosotros {
     grid-area: imgSobreNosotros; }
   .containerSobreNosotros .imgInicioSobreNosotros {
+    margin: auto;
     width: 100%;
     height: 60vh; }
   .containerSobreNosotros .imgSobreNosotros1 {

@@ -74,12 +74,13 @@ header {
   }
 }
 
-.nav-link:hover{
+.nav-link:hover {
   background-color: gray;
   opacity: 20px;
-  transform: scale(1.1);
-  transition: 0.8s;
+  transform: scale(1);
+  transition: 0.7s;
   border-radius: 10px;
+  max-width: max-content;
 }
 
 h2 {
@@ -510,6 +511,7 @@ div {
   }
 
   .imgInicioSobreNosotros {
+    margin: auto;
     width: 100%;
     height: 60vh;
   }
