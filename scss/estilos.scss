@@ -396,13 +396,14 @@ p {
   height: 0;
 }
 .map-container iframe {
-  left: 0;
+  left: 12%;
   top: 0;
-  height: 100%;
-  width: 100%;
+  height: 70%;
+  width: 75%;
   position: absolute;
 }
-/* footer */
+
+// footer
 
 .footer-style {
   padding-top: 50px;
@@ -426,8 +427,17 @@ p {
   padding: 25px 0;
   background-color: black;
 }
+
+.footer-col .icons{
+  display: flex;
+  justify-content: space-around;
+}
+
 // Propiedades Medios de Pago
-div {
+.mediosDePago{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   .subTituloPagos {
     margin-top: 3%;
     font-size: 18px;

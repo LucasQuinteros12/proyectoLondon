@@ -251,13 +251,12 @@ p {
   height: 0; }
 
 .map-container iframe {
-  left: 0;
+  left: 12%;
   top: 0;
-  height: 100%;
-  width: 100%;
+  height: 70%;
+  width: 75%;
   position: absolute; }
 
-/* footer */
 .footer-style {
   padding-top: 50px;
   background-color: black; }
@@ -280,47 +279,49 @@ p {
   padding: 25px 0;
   background-color: black; }
 
-div .subTituloPagos {
-  margin-top: 3%;
-  font-size: 18px;
-  color: #496a81;
-  text-align: center;
-  font-family: "Dela Gothic One", cursive; }
+.footer-col .icons {
+  display: flex;
+  justify-content: space-around; }
 
-div .ulMediosDePago {
-  list-style: none;
-  text-align: center;
-  margin: 2%; }
-
-div .liMediosDePago {
-  margin: 4.5%;
-  font-weight: bold;
-  color: white;
-  font-size: 18px; }
-
-div span {
+.mediosDePago {
   display: flex;
   flex-direction: column;
-  font-size: 16px; }
-
-div h4 {
-  margin-top: 3%;
-  font-size: 18px;
-  color: #496a81;
-  text-align: center;
-  font-family: "Dela Gothic One", cursive; }
-
-div .parrafoMediosDePago {
-  color: white;
-  text-align: center;
-  margin-top: 2%;
-  font-size: 18px; }
-
-div .diasHabiles {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  font-weight: bold; }
+  justify-content: center; }
+  .mediosDePago .subTituloPagos {
+    margin-top: 3%;
+    font-size: 18px;
+    color: #496a81;
+    text-align: center;
+    font-family: "Dela Gothic One", cursive; }
+  .mediosDePago .ulMediosDePago {
+    list-style: none;
+    text-align: center;
+    margin: 2%; }
+  .mediosDePago .liMediosDePago {
+    margin: 4.5%;
+    font-weight: bold;
+    color: white;
+    font-size: 18px; }
+  .mediosDePago span {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px; }
+  .mediosDePago h4 {
+    margin-top: 3%;
+    font-size: 18px;
+    color: #496a81;
+    text-align: center;
+    font-family: "Dela Gothic One", cursive; }
+  .mediosDePago .parrafoMediosDePago {
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 18px; }
+  .mediosDePago .diasHabiles {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold; }
 
 .containerSobreNosotros {
   display: grid;
