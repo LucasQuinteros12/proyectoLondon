@@ -59,6 +59,8 @@ h2 {
   .containerImg .boxImg1 {
     grid-area: boxImg1; }
     .containerImg .boxImg1 .imgNuevo {
+      border: 8px solid white;
+      border-radius: 10px;
       display: block;
       margin-left: 10%;
       height: 300px;
@@ -66,6 +68,8 @@ h2 {
   .containerImg .boxImg2 {
     grid-area: boxImg2; }
     .containerImg .boxImg2 .imgNuevo {
+      border: 8px solid white;
+      border-radius: 10px;
       display: block;
       margin-left: 10%;
       height: 300px;
@@ -73,6 +77,8 @@ h2 {
   .containerImg .boxImg3 {
     grid-area: boxImg3; }
     .containerImg .boxImg3 .imgNuevo {
+      border: 8px solid white;
+      border-radius: 10px;
       display: block;
       margin-left: 10%;
       height: 300px;
@@ -80,6 +86,8 @@ h2 {
   .containerImg .boxImg4 {
     grid-area: boxImg4; }
     .containerImg .boxImg4 .imgNuevo {
+      border: 8px solid white;
+      border-radius: 10px;
       display: block;
       margin-left: 10%;
       height: 300px;
@@ -87,6 +95,8 @@ h2 {
   .containerImg .boxImg5 {
     grid-area: boxImg5; }
     .containerImg .boxImg5 .imgCategorias {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       width: 80%; }
     .containerImg .boxImg5 .aCategorias:hover {
@@ -96,6 +106,8 @@ h2 {
   .containerImg .boxImg6 {
     grid-area: boxImg6; }
     .containerImg .boxImg6 .imgCategorias {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       width: 80%; }
     .containerImg .boxImg6 .aCategorias:hover {
@@ -105,6 +117,8 @@ h2 {
   .containerImg .boxImg7 {
     grid-area: boxImg7; }
     .containerImg .boxImg7 .imgCategorias {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       width: 80%; }
     .containerImg .boxImg7 .aCategorias:hover {
@@ -114,6 +128,8 @@ h2 {
   .containerImg .boxImg8 {
     grid-area: boxImg8; }
     .containerImg .boxImg8 .imgCategorias {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       width: 80%; }
     .containerImg .boxImg8 .aCategorias:hover {
@@ -123,27 +139,38 @@ h2 {
   .containerImg .boxImg9 {
     grid-area: boxImg9; }
     .containerImg .boxImg9 .imgloMasVendido {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       height: 300px;
       width: 247px; }
   .containerImg .boxImg10 {
     grid-area: boxImg10; }
     .containerImg .boxImg10 .imgloMasVendido {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       height: 300px;
       width: 247px; }
   .containerImg .boxImg11 {
     grid-area: boxImg11; }
     .containerImg .boxImg11 .imgloMasVendido {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       height: 300px;
       width: 247px; }
   .containerImg .boxImg12 {
     grid-area: boxImg12; }
     .containerImg .boxImg12 .imgloMasVendido {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       height: 300px;
       width: 247px; }
+
+.tituloCatalogo {
+  font-weight: bold; }
 
 .containerCatalogo {
   display: grid;
@@ -180,51 +207,75 @@ h2 {
     transform: scale(1.07);
     transition: 0.4s; }
   .containerCatalogo .cajaImg1 {
-    grid-area: cajaImg1; }
+    grid-area: cajaImg1;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg1 .parrafo1 {
       grid-area: parrafo1; }
   .containerCatalogo .cajaImg2 {
-    grid-area: cajaImg2; }
+    grid-area: cajaImg2;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg2 .parrafo2 {
       grid-area: parrafo2; }
   .containerCatalogo .cajaImg3 {
-    grid-area: cajaImg3; }
+    grid-area: cajaImg3;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg3 .parrafo3 {
       grid-area: parrafo3; }
   .containerCatalogo .cajaImg4 {
-    grid-area: cajaImg4; }
+    grid-area: cajaImg4;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg4 .parrafo4 {
       grid-area: parrafo4; }
   .containerCatalogo .cajaImg5 {
-    grid-area: cajaImg5; }
+    grid-area: cajaImg5;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg5 .parrafo5 {
       grid-area: parrafo5; }
   .containerCatalogo .cajaImg6 {
-    grid-area: cajaImg6; }
+    grid-area: cajaImg6;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg6 .parrafo6 {
       grid-area: parrafo6; }
   .containerCatalogo .cajaImg7 {
-    grid-area: cajaImg7; }
+    grid-area: cajaImg7;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg7 .parrafo7 {
       grid-area: parrafo7; }
   .containerCatalogo .cajaImg8 {
-    grid-area: cajaImg8; }
+    grid-area: cajaImg8;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg8 .parrafo8 {
       grid-area: parrafo8; }
   .containerCatalogo .cajaImg9 {
-    grid-area: cajaImg9; }
+    grid-area: cajaImg9;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg9 .parrafo9 {
       grid-area: parrafo9; }
   .containerCatalogo .cajaImg10 {
-    grid-area: cajaImg10; }
+    grid-area: cajaImg10;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg10 .parrafo10 {
       grid-area: parrafo10; }
   .containerCatalogo .cajaImg11 {
-    grid-area: cajaImg11; }
+    grid-area: cajaImg11;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg11 .parrafo11 {
       grid-area: parrafo11; }
   .containerCatalogo .cajaImg12 {
-    grid-area: cajaImg12; }
+    grid-area: cajaImg12;
+    border: 6px solid white;
+    border-radius: 10px; }
     .containerCatalogo .cajaImg12 .parrafo12 {
       grid-area: parrafo12; }
 
@@ -430,12 +481,14 @@ p {
     justify-content: center;
     gap: 10px;
     row-gap: 20px; }
-  .tituloCatalogo {
-    font-size: 25px; }
-  img {
-    margin-left: 10px;
-    width: 100%;
-    height: 100%; }
+    .containerCatalogo .tituloCatalogo {
+      font-size: 25px; }
+    .containerCatalogo img {
+      max-width: auto;
+      width: 100%;
+      height: 100%; }
+    .containerCatalogo .contenedorTodo {
+      display: none; }
   .tituloMediosDePago {
     font-size: 25px; }
   .subTituloPagos {
@@ -452,6 +505,7 @@ p {
     grid-template-areas: "textSobreNosotros textSobreNosotros textSobreNosotros" "imgSobreNosotros imgSobreNosotros imgSobreNosotros" "imgSobreNosotros1 imgSobreNosotros2 imgSobreNosotros2" "tituloCalidad tituloPrecios imgSobreNosotros3" "tituloSeguridad tituloSeguridad tituloSeguridad" "calidad precios seguridad";
     justify-content: center; }
   .imgInicioSobreNosotros {
+    max-height: 40vh;
     width: 100%;
     height: 50vh; }
   .imgManiqui {
@@ -499,11 +553,7 @@ p {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    clip-path: circle(0 at center);
-    transition: clip-path 1s ease-in-out;
     opacity: 0.9; }
-  .navInput:checked + .navMenu {
-    clip-path: circle(100% at center); }
   .containerCategorias {
     display: none; }
   .containerFiltros {
@@ -514,6 +564,8 @@ p {
     justify-content: center;
     gap: 10px;
     row-gap: 20px; }
+    .containerCatalogo .cajaImg1 {
+      max-width: auto; }
   .tituloMediosDePago {
     font-size: 20px; }
   .subTituloPagos {

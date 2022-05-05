@@ -118,15 +118,18 @@ h2 {
   .boxImg1 {
     grid-area: boxImg1;
     .imgNuevo {
+      border: 8px solid white;
+      border-radius: 10px;
       display: block;
       margin-left: 10%;
-      height: 300px;
-      width: 247px;
+      @include size(247px, 300px);
     }
   }
   .boxImg2 {
     grid-area: boxImg2;
     .imgNuevo {
+      border: 8px solid white;
+      border-radius: 10px;
       display: block;
       margin-left: 10%;
       @include size(247px, 300px);
@@ -135,6 +138,8 @@ h2 {
   .boxImg3 {
     grid-area: boxImg3;
     .imgNuevo {
+      border: 8px solid white;
+      border-radius: 10px;
       display: block;
       margin-left: 10%;
       @include size(247px, 300px);
@@ -143,6 +148,8 @@ h2 {
   .boxImg4 {
     grid-area: boxImg4;
     .imgNuevo {
+      border: 8px solid white;
+      border-radius: 10px;
       display: block;
       margin-left: 10%;
       @include size(247px, 300px);
@@ -151,6 +158,8 @@ h2 {
   .boxImg5 {
     grid-area: boxImg5;
     .imgCategorias {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       width: 80%;
     }
@@ -163,6 +172,8 @@ h2 {
   .boxImg6 {
     grid-area: boxImg6;
     .imgCategorias {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       width: 80%;
     }
@@ -175,6 +186,8 @@ h2 {
   .boxImg7 {
     grid-area: boxImg7;
     .imgCategorias {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       width: 80%;
     }
@@ -187,6 +200,8 @@ h2 {
   .boxImg8 {
     grid-area: boxImg8;
     .imgCategorias {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       width: 80%;
     }
@@ -199,6 +214,8 @@ h2 {
   .boxImg9 {
     grid-area: boxImg9;
     .imgloMasVendido {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       @include size(247px, 300px);
     }
@@ -206,6 +223,8 @@ h2 {
   .boxImg10 {
     grid-area: boxImg10;
     .imgloMasVendido {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       @include size(247px, 300px);
     }
@@ -213,6 +232,8 @@ h2 {
   .boxImg11 {
     grid-area: boxImg11;
     .imgloMasVendido {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       @include size(247px, 300px);
     }
@@ -220,6 +241,8 @@ h2 {
   .boxImg12 {
     grid-area: boxImg12;
     .imgloMasVendido {
+      border: 8px solid white;
+      border-radius: 10px;
       margin-left: 10%;
       @include size(247px, 300px);
     }
@@ -227,6 +250,10 @@ h2 {
 }
 
 //propiedades catalogo
+
+.tituloCatalogo{
+  font-weight: bold;
+}
 
 .containerCatalogo {
   display: grid;
@@ -283,6 +310,8 @@ h2 {
   }
   .cajaImg1 {
     grid-area: cajaImg1;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo1 {
       @extend %font-weight;
       grid-area: parrafo1;
@@ -290,6 +319,8 @@ h2 {
   }
   .cajaImg2 {
     grid-area: cajaImg2;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo2 {
       @extend %font-weight;
       grid-area: parrafo2;
@@ -297,6 +328,8 @@ h2 {
   }
   .cajaImg3 {
     grid-area: cajaImg3;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo3 {
       @extend %font-weight;
       grid-area: parrafo3;
@@ -304,6 +337,8 @@ h2 {
   }
   .cajaImg4 {
     grid-area: cajaImg4;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo4 {
       @extend %font-weight;
       grid-area: parrafo4;
@@ -311,6 +346,8 @@ h2 {
   }
   .cajaImg5 {
     grid-area: cajaImg5;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo5 {
       @extend %font-weight;
       grid-area: parrafo5;
@@ -318,6 +355,8 @@ h2 {
   }
   .cajaImg6 {
     grid-area: cajaImg6;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo6 {
       @extend %font-weight;
       grid-area: parrafo6;
@@ -325,6 +364,8 @@ h2 {
   }
   .cajaImg7 {
     grid-area: cajaImg7;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo7 {
       @extend %font-weight;
       grid-area: parrafo7;
@@ -332,6 +373,8 @@ h2 {
   }
   .cajaImg8 {
     grid-area: cajaImg8;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo8 {
       @extend %font-weight;
       grid-area: parrafo8;
@@ -339,6 +382,8 @@ h2 {
   }
   .cajaImg9 {
     grid-area: cajaImg9;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo9 {
       @extend %font-weight;
       grid-area: parrafo9;
@@ -346,6 +391,8 @@ h2 {
   }
   .cajaImg10 {
     grid-area: cajaImg10;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo10 {
       @extend %font-weight;
       grid-area: parrafo10;
@@ -353,6 +400,8 @@ h2 {
   }
   .cajaImg11 {
     grid-area: cajaImg11;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo11 {
       @extend %font-weight;
       grid-area: parrafo11;
@@ -360,6 +409,8 @@ h2 {
   }
   .cajaImg12 {
     grid-area: cajaImg12;
+    border: 6px solid white;
+      border-radius: 10px;
     .parrafo12 {
       @extend %font-weight;
       grid-area: parrafo12;
@@ -670,17 +721,22 @@ p {
     justify-content: center;
     gap: 10px;
     row-gap: 20px;
+    .tituloCatalogo {
+      font-size: 25px;
+    }
+  
+    img {
+      max-width: auto;
+      width: 100%;
+      height: 100%;
+    }
+
+    .contenedorTodo{
+      display: none;
+    }
   }
 
-  .tituloCatalogo {
-    font-size: 25px;
-  }
-
-  img {
-    margin-left: 10px;
-    width: 100%;
-    height: 100%;
-  }
+  
 
   .tituloMediosDePago {
     font-size: 25px;
@@ -716,6 +772,7 @@ p {
   }
 
   .imgInicioSobreNosotros {
+    max-height: 40vh;
     width: 100%;
     height: 50vh;
   }
@@ -802,14 +859,9 @@ p {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    clip-path: circle(0 at center);
-    transition: clip-path 1s ease-in-out;
     opacity: 0.9;
   }
 
-  .navInput:checked + .navMenu {
-    clip-path: circle(100% at center);
-  }
 
   .containerCategorias {
     display: none;
@@ -837,6 +889,11 @@ p {
     justify-content: center;
     gap: 10px;
     row-gap: 20px;
+    .cajaImg1{
+      max-width: auto;
+    }
+
+
   }
 
   .tituloMediosDePago {
